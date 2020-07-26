@@ -61,11 +61,12 @@ THEN I exit the application, and the HTML is generated
 
 Steps to install application:
 1. Clone the repository
-2. In the directory with server.js, run `npm install`
-3. In your command line, start server `node index.js`
-4. Answer prompts
-5. HTML will then generate
-6. Preview index.html
+2. Open `sample.html` in browser for a sample profile
+3. In the directory with server.js, run `npm install`
+4. In your command line, start server `node index.js`
+5. Answer prompts
+6. HTML will then generate
+7. Preview index.html
 
 # Preview and How it works
 
