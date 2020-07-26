@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <title>Team Profile Generator</title>
+</head>
+
+<body>
+
+    <div class="container" id="team">
+        <div class="row">
+            <div class="col-12 font-weight-light text-center bg-warning my-5 py-5 display-4 rounded-pill shadow p-3 mb-5">My Team</div>
+        </div>
+        <div class="row" id="cards">
+        </div>
+    </div>
+
+    <!-- jQuery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+            <script>
+            var col = $('<div class="col-4">');
+            var card = $('<div class="card mx-auto border-warning mb-3 shadow-lg" style="max-width: 18rem;">');
+            var header1 = $('<div class="card-header text-center h3">');
+            header1.text("Rochelle Ruiz");
+            var header2 = $('<div class="card-header text-center">');
+            var icon = $('<i class="fas fa-users">');
+            header2.text(" Manager");
+            header2.prepend(icon);
+
+            var cardBody = $('<div class="card-body text-secondary">');
+            var cardTitle = $('<h5 class="card-title">');
+            cardTitle.text("Employee Information:");
+            var cardText = $('<p class="card-text">');
+            cardText.text("ID: 93938");
+            var cardText2 = $('<p class="card-text">');
+            cardText2.text("Email: rochelle@work.com");
+            var cardText3 = $('<p class="card-text">');
+            cardText3.text("Office #: 909-223-4432");
+            cardBody.append(cardTitle);
+            cardBody.append(cardText);
+            cardBody.append(cardText2);
+            cardBody.append(cardText3);
+    
+            card.append(header1);
+            card.append(header2);
+            card.append(cardBody);
+            col.append(card);
+            $("#cards").append(col);    
+            </script>        
+            
+            <script>
+            var col = $('<div class="col-4">');
+            var card = $('<div class="card mx-auto border-warning mb-3 shadow-lg" style="max-width: 18rem;">');
+            var header1 = $('<div class="card-header text-center h3">');
+            header1.text("Dawn Julio");
+            var header2 = $('<div class="card-header text-center">');
+            var icon = $('<i class="fas fa-cogs">');
+            header2.text(" Engineer");
+            header2.prepend(icon);
+
+            var cardBody = $('<div class="card-body text-secondary">');
+            var cardTitle = $('<h5 class="card-title">');
+            cardTitle.text("Employee Information:");
+            var cardText = $('<p class="card-text">');
+            cardText.text("ID: 44313");
+            var cardText2 = $('<p class="card-text">');
+            cardText2.text("Email: dawn@work.com");
+            var cardText3 = $('<p class="card-text">');
+            cardText3.text("Github: www.dawn.github.com");
+            cardBody.append(cardTitle);
+            cardBody.append(cardText);
+            cardBody.append(cardText2);
+            cardBody.append(cardText3);
+    
+            card.append(header1);
+            card.append(header2);
+            card.append(cardBody);
+            col.append(card);
+            $("#cards").append(col);    
+            </script>        
+            
+            <script>
+            var col = $('<div class="col-4">');
+            var card = $('<div class="card mx-auto border-warning mb-3 shadow-lg" style="max-width: 18rem;">');
+            var header1 = $('<div class="card-header text-center h3">');
+            header1.text("DeeJay Khaled");
+            var header2 = $('<div class="card-header text-center">');
+            var icon = $('<i class="fas fa-cogs">');
+            header2.text(" Engineer");
+            header2.prepend(icon);
+
+            var cardBody = $('<div class="card-body text-secondary">');
+            var cardTitle = $('<h5 class="card-title">');
+            cardTitle.text("Employee Information:");
+            var cardText = $('<p class="card-text">');
+            cardText.text("ID: 54432");
+            var cardText2 = $('<p class="card-text">');
+            cardText2.text("Email: deejay@work.com");
+            var cardText3 = $('<p class="card-text">');
+            cardText3.text("Github: www.deejay.github.com");
+            cardBody.append(cardTitle);
+            cardBody.append(cardText);
+            cardBody.append(cardText2);
+            cardBody.append(cardText3);
+    
+            card.append(header1);
+            card.append(header2);
+            card.append(cardBody);
+            col.append(card);
+            $("#cards").append(col);    
+            </script>        
+            
+            <script>
+            var col = $('<div class="col-4">');
+            var card = $('<div class="card mx-auto border-warning mb-3 shadow-lg" style="max-width: 18rem;">');
+            var header1 = $('<div class="card-header text-center h3">');
+            header1.text("Jay Low");
+            var header2 = $('<div class="card-header text-center">');
+            var icon = $('<i class="fas fa-user-graduate">');
+            header2.text(" Intern");
+            header2.prepend(icon);
+
+            var cardBody = $('<div class="card-body text-secondary">');
+            var cardTitle = $('<h5 class="card-title">');
+            cardTitle.text("Employee Information:");
+            var cardText = $('<p class="card-text">');
+            cardText.text("ID: 33213");
+            var cardText2 = $('<p class="card-text">');
+            cardText2.text("Email: jay@work.com");
+            var cardText3 = $('<p class="card-text">');
+            cardText3.text("School: UCLA");
+            cardBody.append(cardTitle);
+            cardBody.append(cardText);
+            cardBody.append(cardText2);
+            cardBody.append(cardText3);
+    
+            card.append(header1);
+            card.append(header2);
+            card.append(cardBody);
+            col.append(card);
+            $("#cards").append(col);    
+            </script>        
+            
+            <script>
+            var col = $('<div class="col-4">');
+            var card = $('<div class="card mx-auto border-warning mb-3 shadow-lg" style="max-width: 18rem;">');
+            var header1 = $('<div class="card-header text-center h3">');
+            header1.text("Jewel Saint Ana");
+            var header2 = $('<div class="card-header text-center">');
+            var icon = $('<i class="fas fa-user-graduate">');
+            header2.text(" Intern");
+            header2.prepend(icon);
+
+            var cardBody = $('<div class="card-body text-secondary">');
+            var cardTitle = $('<h5 class="card-title">');
+            cardTitle.text("Employee Information:");
+            var cardText = $('<p class="card-text">');
+            cardText.text("ID: 33423");
+            var cardText2 = $('<p class="card-text">');
+            cardText2.text("Email: jewel@work.com");
+            var cardText3 = $('<p class="card-text">');
+            cardText3.text("School: USC");
+            cardBody.append(cardTitle);
+            cardBody.append(cardText);
+            cardBody.append(cardText2);
+            cardBody.append(cardText3);
+    
+            card.append(header1);
+            card.append(header2);
+            card.append(cardBody);
+            col.append(card);
+            $("#cards").append(col);    
+            </script>        
+            
+
+    <!-- Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"crossorigin="anonymous"></script>
+    <!-- Moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- My JavaScript -->
+    <!--script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

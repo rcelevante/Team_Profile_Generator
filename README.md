@@ -1,6 +1,19 @@
-# Team_Profile_Generator
+# Team Profile Generator
 
-A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. 
+
+github: https://github.com/rcelevante
+
+# Table of Contents  
+[User Story](#UserStory)  
+
+[Installation](#Installation) 
+
+[Preview and How it works](#Preview-and-How-it-works) 
+
+[Languages](#Languages) 
+
+[Acknowledgement](#Acknowledgement) 
 
 # User Story
 
@@ -52,12 +65,21 @@ Steps to install application:
 3. In your command line, start server `node index.js`
 4. Answer prompts
 5. HTML will then generate
+6. Preview index.html
 
-## Built With
+# Preview and How it works
+
+[![Watch the video](screenshot.png)](https://www.youtube.com/watch?v=sEaUCubarvk)
+
+# Languages
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/)
 * [Javascript](https://www.javascript.com/)
 * [Node.js](https://nodejs.org/en/)
+
+# Acknowledgement 
+
+* Trilogy instructors and TA's for teaching me how to do this
 
