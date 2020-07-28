@@ -72,6 +72,8 @@ Steps to install application:
 
 [![Watch the video](screenshot.png)](https://www.youtube.com/watch?v=sEaUCubarvk)
 
+[![Watch the video(TEST)](test.png)](https://youtu.be/u4OzFp7wLYU)
+
 # Languages
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
